@@ -4,7 +4,7 @@ class App extends Component {
   render() {
     return (
       <h1>
-        <span class="name-1">Thought</span><span class="name-2">Front</span>
+        <span className="name-1">Thought</span><span className="name-2">Front</span>
       </h1>
     );
   }
