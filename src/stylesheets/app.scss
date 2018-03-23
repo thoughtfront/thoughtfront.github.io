@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto', 'Noto', sans-serif;
+  
+  div.group {
+    width: 300px;
+    display: inline-block;
+  }
+
+  #a {
+    h1 span.name-1 {
+      color: #455a64;
+    }
+    h1 span.name-2 {
+      color: #0288d1;
+    }
+  }
+
+  #b {
+    h1 span.name-1 {
+      color: #455a64;
+    }
+    h1 span.name-2 {
+      color: #ff6e40;
+    }
+  }
+
+  #c {
+    h1 span.name-1 {
+      color: #455a64;
+    }
+    #c h1 span.name-2 {
+      color: #e64a19;
+    }
+  }
+
+  #d {
+    h1 span.name-1 {
+      color: #607d8b;
+    }
+    #d h1 span.name-2 {
+      color: #455a64;
+    }
+  }
+
+  #e {
+    h1 span.name-1 {
+      color: #455a64;
+    }
+    #e h1 span.name-2 {
+      color: #607d8b;
+    }
+  }
+
+  div.img img {
+    width: 200px;
+  }
+}
