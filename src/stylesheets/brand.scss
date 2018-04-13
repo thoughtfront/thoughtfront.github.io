@@ -1,0 +1,65 @@
+#brand-page{
+  div.group {
+    width: 300px;
+    display: inline-block;
+  }
+
+  div#brand-name {
+    width: 33%;
+    display: inline-block;
+  }
+
+  div#brand-logos {
+    width: 66%;
+    display: inline-block;
+  }
+
+  #a {
+    span.name-1 {
+      color: #455a64;
+    }
+    span.name-2 {
+      color: #0288d1;
+    }
+  }
+
+  #b {
+    span.name-1 {
+      color: #455a64;
+    }
+    span.name-2 {
+      color: #ff6e40;
+    }
+  }
+
+  #c {
+    span.name-1 {
+      color: #455a64;
+    }
+    #c span.name-2 {
+      color: #e64a19;
+    }
+  }
+
+  #d {
+    span.name-1 {
+      color: #607d8b;
+    }
+    #d span.name-2 {
+      color: #455a64;
+    }
+  }
+
+  #e {
+    span.name-1 {
+      color: #455a64;
+    }
+    #e span.name-2 {
+      color: #607d8b;
+    }
+  }
+
+  div.img img {
+    width: 200px;
+  }
+}
