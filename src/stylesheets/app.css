@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 body {
-  font-family: 'Roboto', 'Noto', sans-serif; }
+  font-family: 'Noto Sans', 'Roboto', 'Noto', sans-serif; }
   body div.group {
     width: 300px;
     display: inline-block; }
