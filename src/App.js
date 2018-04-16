@@ -4,13 +4,16 @@ import Brand from './pages/brand/index';
 class App extends Component {
   constructor() {
     super();
+
+    addEventListener('hashchange', e => this.setState({page: location.hash}) );
+
     this.state = {
-      page: location.pathname,
+      page: location.hash,
     };
   }
 
   page() {
-    if (this.state.page === '/brand') return <Brand></Brand>;
+    if (this.state.page === '#brand') return <Brand></Brand>;
 
     return <h1><span className="name-1">Thought</span><span className="name-2">Front</span></h1>;
   }
