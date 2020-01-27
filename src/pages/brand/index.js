@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../stylesheets/brand.css';
+// import '../../stylesheets/brand.css';
 
 import LBa from '../../img/logo/LogoBase A.png';
 import LBa1 from '../../img/logo/LogoBase A - 1.png';
